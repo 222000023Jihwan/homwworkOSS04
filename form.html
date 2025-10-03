@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #container {
+      max-width: 400px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+      border-radius: 4px;
+    }
+    button {
+      margin-left: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h2>Dynamic Webpage</h2>
+    
+    <!-- 입력 칸과 추가 버튼 -->
+    <input type="text" id="itemInput" placeholder="항목을 입력하세요">
+    <button id="addButton">Add</button>
+    
+    <!-- 리스트 -->
+    <ul id="itemList"></ul>
+  </div>
+
+  <script>
+    function addItem() {
+      const input = document.getElementById("itemInput");
+      const value = input.value.trim(); // 입력값 가져오기 (공백 제거)
+
+      if (value === "") {
+        alert("내용을 입력하세요!");
+        return;
+      }
+
+      const ul = document.getElementById("itemList");
+      const li = document.createElement("li");
+
+      // 텍스트 추가
+      li.textContent = value;
+
+      // 삭제 버튼 추가
+      const deleteBtn = document.createElement("button");
+      deleteBtn.textContent = "Delete";
+      deleteBtn.onclick = function() {
+        ul.removeChild(li);
+      };
+
+      li.appendChild(deleteBtn);   // li 안에 delete 버튼 넣기
+      ul.appendChild(li);          // ul 안에 li 넣기
+
+      input.value = ""; // 입력칸 비우기
+    }
+
+    let button = document.getElementById("addButton");
+    button.addEventListener("click", addItem);
+
+
+  </script>
+</body>
+</html>
