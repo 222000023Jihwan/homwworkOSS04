@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to AI",
+    "body": "A beginner's guide to artificial intelligence concepts.",
+    "author": "Alice Kim",
+    "isPublished": true,
+    "createdAt": "2025-10-01T09:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Deep Learning Explained",
+    "body": "Understanding neural networks and their applications.",
+    "author": "Bob Lee",
+    "isPublished": false,
+    "createdAt": "2025-10-02T12:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Modern Web Development",
+    "body": "Using React and Node.js for scalable web apps.",
+    "author": "Clara Choi",
+    "isPublished": true,
+    "createdAt": "2025-10-03T14:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Data Science Essentials",
+    "body": "Learn how to analyze data using Python and Pandas.",
+    "author": "David Park",
+    "isPublished": true,
+    "createdAt": "2025-10-04T09:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Basics",
+    "body": "Protecting your data in a connected world.",
+    "author": "Ella Jung",
+    "isPublished": false,
+    "createdAt": "2025-10-05T08:15:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Database Design",
+    "body": "Introduction to relational databases and SQL.",
+    "author": "Frank Cho",
+    "isPublished": true,
+    "createdAt": "2025-10-06T13:10:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning Projects",
+    "body": "Practical examples with scikit-learn.",
+    "author": "Grace Lim",
+    "isPublished": false,
+    "createdAt": "2025-10-07T15:05:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Cloud Computing 101",
+    "body": "Exploring AWS, Azure, and GCP basics.",
+    "author": "Henry Lee",
+    "isPublished": true,
+    "createdAt": "2025-10-08T11:45:00Z"
+  },
+  {
+    "id": 9,
+    "title": "IoT and Smart Devices",
+    "body": "Building connected systems with sensors.",
+    "author": "Isabel Kim",
+    "isPublished": true,
+    "createdAt": "2025-10-09T10:25:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Blockchain Fundamentals",
+    "body": "Understanding the core concepts of blockchain.",
+    "author": "Jack Han",
+    "isPublished": false,
+    "createdAt": "2025-10-10T09:00:00Z"
+  }
+]
